@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:id="@+id/rl_view">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_cabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Nuevo participante                      "
+            android:textSize="20dp"
+            android:textColor="#0efa01"
+            android:textStyle="italic"
+            />
+
+        <ImageView
+            android:id="@+id/imagen_detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:src="@mipmap/mira" />
+
+        <ImageView
+            android:id="@+id/imagen_detalle2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:src="@mipmap/sound" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Nombre :         "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="30"
+            android:id="@+id/editText1"
+            android:background="@drawable/boton_prueba"
+            android:layout_weight="0.9" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Edad :               "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="30"
+            android:id="@+id/editText2"
+            android:background="@drawable/boton_prueba"
+            android:layout_weight="0.9"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_entrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Entrenador : "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+
+      <!--  <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="right"
+            android:background="@drawable/boton_prueba"/>
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_relacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Relacion : "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+
+        <!--  <Spinner
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/spinner"
+              android:layout_gravity="right"
+              android:background="@drawable/boton_prueba"/>
+          -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/label_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="URL Youtube :  "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="30"
+            android:id="@+id/editText3"
+            android:background="@drawable/boton_prueba"
+            android:layout_weight="0.9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/label_Foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Foto:     "
+            android:textSize="18dp"
+            android:layout_weight="0.02"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargar"
+            android:id="@+id/buttonCargarFoto"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:background="@drawable/boton_redondo"/>
+
+        <ImageView
+            android:id="@+id/imagenEntrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05"
+            android:src="@drawable/rivera"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:id="@+id/button1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableLeft="@mipmap/Aceptar1"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:id="@+id/button2"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:drawableLeft="@mipmap/cancelar"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
