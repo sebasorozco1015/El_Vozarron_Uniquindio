@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.uniquindo.edu.co.proyecto.fragment.ImagenUniquindioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/titulo_de_detalle_personaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:text="EL VOZARRÓN UNIQUINDIO"
+                android:textColor="#fff"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagen_detalle"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:contentDescription=""
+                android:src="@drawable/universidad" />
+            <Button
+                android:id="@+id/btn_ir_a_login"
+                android:layout_width="wrap_content"
+                android:background="#000"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/candado_boton"
+                android:textColor="#008000"
+                android:onClick="irALogin"
+                android:textSize="10dp"
+                android:text="Autenticacion Administrador" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
