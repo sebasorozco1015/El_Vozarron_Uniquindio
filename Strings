@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">El_Vozarron</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="datos_universidad">Carrera 15 Calle 12 Norte
+    Armenia, Quindio, Colombia
+
+    Tel: +57(6) 7359300
+    Quejas y Reclamos 018000 96 35 78 opcion 5
+    Denuncias actos de corrupcion: +57(6) 7359416 Ext 416</string>
+
+    <string name="biografiaQuemada">Robyn Rihanna Fenty (Bridgetown, 20 de febrero de 1988),
+        conocida simplemente como Rihanna, es una cantante, actriz y diseñadora de moda barbadense.
+
+        Comenzó su carrera en el 2003 cuando audicionó para el productor musical Evan Rogers.
+        A la edad de dieciséis, Rogers, decidió llevarla a los Estados Unidos para grabar maquetas.
+        Posteriormente realizó una audición para Jay-Z y firmó un contrato de seis álbumes con Def Jam Recordings.
+
+        Sus primeros materiales discográficos, Music of the Sun (2005) y A Girl Like Me (2006),
+        lograron alcanzar gran éxito comercial en los países anglosajones.
+        Sin embargo, Rihanna adquirió fama mundial tras el lanzamiento de su tercer álbum de estudio, Good Girl Gone Bad (2007),
+        el que fue precedido por el sencillo que la catapultó al estrellato, «Umbrella».
+        Desde el 2009 al 2011 su discografía fue expandiendose con el lanzamiento de tres discos, Rated R (2009), Loud (2010) y Talk That Talk (2011).
+        Los tres fueron certificados platino por la Asociación de Industria Discográfica de Estados Unidos.
+        Su carrera musical continuó con los éxitos Unapologetic (2012) y Anti (2016).
+        Ambos alcanzaron el número uno en el Billboard 200 y fueron certificados multi-platino por la Asociación de Industria Discográfica de Estados Unidos.</string>
+
+    <string name="title_activity_principal">PrincipalActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
