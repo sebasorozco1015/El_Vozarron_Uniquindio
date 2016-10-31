@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <ImageView
+        android:id="@+id/imagenTwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/uniquindio"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/datos_votacionExitosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="¡Votacion exitosa!"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+
+
+    <fragment
+        android:id="@+id/fragmento_direccion"
+        class="com.uniquindo.edu.co.proyecto.fragment.RedesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>
