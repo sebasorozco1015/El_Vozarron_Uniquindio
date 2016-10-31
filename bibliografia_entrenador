@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/datos_entrenador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Historia entrenador"
+        android:textSize="30dp"
+        android:textColor="#03fd31"/>
+
+    <ImageView
+        android:id="@+id/imagenEntrenador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rihanna"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/label_nombre_entrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Nombre:     "
+            android:textSize="20dp"
+            android:layout_weight="0.02"
+            android:textColor="#03fd31"/>
+
+        <TextView
+            android:id="@+id/nombre_entrenador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Nombre cargado "
+            android:textSize="20dp"
+            android:layout_weight="0.05"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_biografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Biografia"
+        android:textSize="20dp"
+        android:textColor="#03fd31"/>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="200dp">
+    <TextView
+        android:id="@+id/label_Historia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/biografiaQuemada"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
